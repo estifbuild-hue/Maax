@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Training | Get Results</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center relative">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-extrabold text-orange-600">FIT</span>
+                    <span class="text-2xl font-bold text-gray-800">FLOW</span>
+                </div>
+                <div class="hidden md:flex space-x-16 font-medium absolute left-1/2 transform -translate-x-1/2">
+                    <a href="#about" class="text-gray-600 hover:text-orange-600">About</a>
+                    <a href="#services" class="text-gray-600 hover:text-orange-600">Services</a>
+                </div>
+                <a href="#contact" class="bg-orange-600 text-white px-5 py-2 rounded-full hover:bg-orange-700 transition">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-gradient h-[80vh] flex items-center justify-center text-center px-4">
+        <div class="max-w-3xl">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
+                Transform Your Body, <span class="text-orange-500">Elevate Your Life.</span>
+            </h1>
+            <p class="text-xl text-gray-200 mb-10">
+                Personalized training plans designed for your goals, your schedule, and your lifestyle. Start your journey today.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#services" class="bg-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 hover:text-gray-900 transition shadow-lg">
+                    View Programs
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-white border-b">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-3xl font-bold text-orange-600">1-on-1</h3>
+                    <p class="text-gray-500 uppercase tracking-widest text-xs mt-1">Coaching</p>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-orange-600">100%</h3>
+                    <p class="text-gray-500 uppercase tracking-widest text-xs mt-1">Personalized</p>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-orange-600">24/7</h3>
+                    <p class="text-gray-500 uppercase tracking-widest text-xs mt-1">Support</p>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-orange-600">Proven</h3>
+                    <p class="text-gray-500 uppercase tracking-widest text-xs mt-1">Methodology</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Training Programs</h2>
+                <div class="w-20 h-1.5 bg-orange-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-gray-100 hover:border-orange-200 transition">
+                    <div class="w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center text-orange-600 mb-6">
+                        <i class="fas fa-dumbbell text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Strength & Muscle</h3>
+                    <p class="text-gray-600 mb-6">Build lean muscle and functional strength with science-backed resistance training protocols.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i> Custom lifting splits</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i> Form correction</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-gray-100 hover:border-orange-200 transition scale-105 ring-2 ring-orange-500 ring-opacity-20">
+                    <div class="w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center text-orange-600 mb-6">
+                        <i class="fas fa-heartbeat text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Weight Loss Mastery</h3>
+                    <p class="text-gray-600 mb-6">Sustainable fat loss without extreme diets. We focus on lifestyle habits and metabolic health.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i> Nutrition guidance</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i> Accountability tracking</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-gray-100 hover:border-orange-200 transition">
+                    <div class="w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center text-orange-600 mb-6">
+                        <i class="fas fa-laptop text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Remote Coaching</h3>
+                    <p class="text-gray-600 mb-6">Training for the busy professional. Get your workouts delivered via app with video feedback.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i> App access</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i> Weekly video calls</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-white border-t text-center">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-center space-x-6 mb-6">
+                <a href="#" class="text-gray-400 hover:text-orange-600 text-xl transition"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-gray-400 hover:text-orange-600 text-xl transition"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-gray-400 hover:text-orange-600 text-xl transition"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <p class="text-gray-500 text-sm">© 2026 Personal Training. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
